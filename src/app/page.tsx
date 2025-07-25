@@ -55,7 +55,7 @@ export default function Home() {
           </RevealOnScroll>
           <RevealOnScroll delay={200}>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
-              Sawbay proposes to build its own Code 3.0 framework, applying it to our outsourcing products for a new era of self-adapting software.
+              At Sawbay, we're not just waiting for the future, we're building it. Our proprietary Code 3.0 framework will power a new generation of outsourcing products—software that learns, adapts, and evolves on its own.
             </p>
           </RevealOnScroll>
         </section>
