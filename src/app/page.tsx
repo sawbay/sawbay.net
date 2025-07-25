@@ -48,7 +48,7 @@ export default function Home() {
           </RevealOnScroll>
           <RevealOnScroll delay={200}>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
-              Sawbay Solutions proposes to build its own Code 3.0 framework, applying it to our outsourcing products for a new era of self-adapting software.
+              Sawbay proposes to build its own Code 3.0 framework, applying it to our outsourcing products for a new era of self-adapting software.
             </p>
           </RevealOnScroll>
         </section>
@@ -81,7 +81,7 @@ export default function Home() {
         
         <footer className="py-16 text-center text-muted-foreground">
           <RevealOnScroll>
-            <p>&copy; {new Date().getFullYear()} Sawbay Solutions. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Sawbay. All rights reserved.</p>
           </RevealOnScroll>
         </footer>
       </main>
