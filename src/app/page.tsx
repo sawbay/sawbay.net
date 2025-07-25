@@ -1,7 +1,27 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Logo } from "@/components/logo";
 import { RevealOnScroll } from "@/components/reveal-on-scroll";
-import { Code, GitBranch, BrainCircuit } from 'lucide-react';
+import { Code, GitBranch, BrainCircuit, Github, Linkedin } from 'lucide-react';
+
+const DiscordIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c1.79 0 3.48-.46 4.94-1.29a.5.5 0 0 0 .17-.4V17.5a1 1 0 0 0-.5-.87c-1.2-.7-2.52-1.13-3.92-1.13-2.43 0-4.42.93-5.94 2.5a.5.5 0 0 1-.7-.04C4.61 16.48 4 14.33 4 12.11c0-2.45 1.5-4.5 3.5-5.32a.5.5 0 0 1 .6.38c.1.6.26 1.2.46 1.76a.5.5 0 0 1-.16.54C7.38 9.91 7 10.93 7 12c0 1.55 1.14 2.82 2.62 3a3.53 3.53 0 0 0 1.38-.25 1 1 0 0 0 .5-.86v-1.1a1 1 0 0 1 .76-.97c1.33-.36 2.24-1.58 2.24-2.83 0-1.63-1.34-2.95-3-2.95s-3 1.32-3 2.95c0 .02 0 .04.0.06a.5.5 0 0 1-.5.5H8.5a.5.5 0 0 1-.5-.5C8 10.27 9.34 9 11 9c1.66 0 3 1.34 3 3 0 .83-.34 1.58-.88 2.12a.5.5 0 0 0-.08.43v.68a.5.5 0 0 0 .42.49c.8.19 1.53.29 2.21.29 1.55 0 2.94-.47 4.14-1.27a1 1 0 0 0 .5-.87v-2.07a.5.5 0 0 0-.17-.4C18.52 2.46 16.79 2 15 2Z" />
+    <path d="M9 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
+    <path d="M15 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
+  </svg>
+);
+
 
 export default function Home() {
   const stages = [
@@ -34,9 +54,25 @@ export default function Home() {
       </div>
 
       <main className="relative z-10 mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
-        <header className="flex justify-start py-6">
+        <header className="flex items-center justify-between py-6">
           <RevealOnScroll>
             <Logo />
+          </RevealOnScroll>
+           <RevealOnScroll>
+            <div className="flex items-center gap-4">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <Github className="h-6 w-6 text-foreground transition-colors hover:text-accent" />
+                 <span className="sr-only">GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <Linkedin className="h-6 w-6 text-foreground transition-colors hover:text-accent" />
+                 <span className="sr-only">LinkedIn</span>
+              </a>
+              <a href="https://discord.com" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+                <DiscordIcon className="h-6 w-6 text-foreground transition-colors hover:text-accent" />
+                 <span className="sr-only">Discord</span>
+              </a>
+            </div>
           </RevealOnScroll>
         </header>
 
