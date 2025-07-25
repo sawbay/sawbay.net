@@ -47,7 +47,11 @@ export default function Home() {
             </h1>
           </RevealOnScroll>
           <RevealOnScroll delay={100}>
-            <p className="mt-4 text-lg text-muted-foreground">coming soon</p>
+            <p className="mt-4 text-base font-medium">
+              <span className="animate-pulse bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent">
+                (coming soon)
+              </span>
+            </p>
           </RevealOnScroll>
           <RevealOnScroll delay={200}>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
