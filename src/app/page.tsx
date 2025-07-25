@@ -55,7 +55,9 @@ export default function Home() {
           </RevealOnScroll>
           <RevealOnScroll delay={200}>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
-              At Sawbay, we're not just waiting for the future, we're building it. Our proprietary Code 3.0 framework will power a new generation of outsourcing products—software that learns, adapts, and evolves on its own.
+              <span className="animate-pulse bg-gradient-to-r from-accent to-pink-500 bg-clip-text text-transparent">
+                At Sawbay, we're not just waiting for the future, we're building it. Our proprietary Code 3.0 framework will power a new generation of outsourcing products—software that learns, adapts, and evolves on its own.
+              </span>
             </p>
           </RevealOnScroll>
         </section>
