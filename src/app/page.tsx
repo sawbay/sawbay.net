@@ -16,7 +16,7 @@ const DiscordIcon = (props: React.SVGProps<SVGSVGElement>) => (
     strokeLinejoin="round"
     {...props}
   >
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c1.79 0 3.48-.46 4.94-1.29a.5.5 0 0 0 .17-.4V17.5a1 1 0 0 0-.5-.87c-1.2-.7-2.52-1.13-3.92-1.13-2.43 0-4.42.93-5.94 2.5a.5.5 0 0 1-.7-.04C4.61 16.48 4 14.33 4 12.11c0-2.45 1.5-4.5 3.5-5.32a.5.5 0 0 1 .6.38c.1.6.26 1.2.46 1.76a.5.5 0 0 1-.16.54C7.38 9.91 7 10.93 7 12c0 1.55 1.14 2.82 2.62 3a3.53 3.53 0 0 0 1.38-.25 1 1 0 0 0 .5-.86v-1.1a1 1 0 0 1 .76-.97c1.33-.36 2.24-1.58 2.24-2.83 0-1.63-1.34-2.95-3-2.95s-3 1.32-3 2.95c0 .02 0 .04.0.06a.5.5 0 0 1-.5.5H8.5a.5.5 0 0 1-.5-.5C8 10.27 9.34 9 11 9c1.66 0 3 1.34 3 3 0 .83-.34 1.58-.88 2.12a.5.5 0 0 0-.08.43v.68a.5.5 0 0 0 .42.49c.8.19 1.53.29 2.21.29 1.55 0 2.94-.47 4.14-1.27a1 1 0 0 0 .5-.87v-2.07a.5.5 0 0 0-.17-.4C18.52 2.46 16.79 2 15 2Z" />
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c1.79 0 3.48-.46 4.94-1.29a.5.5 0 0 0 .17-.4V17.5a1 1 0 0 0-.5-.87c-1.2-.7-2.52-1.13-3.92-1.13-2.43 0-4.42.93-5.94 2.5a.5.5 0 0 1-.7-.04C4.61 16.48 4 14.33 4 12.11c0-2.45 1.5-4.5 3.5-5.32a.5.5 0 0 1 .6.38c.1.6.26 1.2.46 1.76a.5.5 0 0 1-.16.54C7.38 9.91 7 10.93 7 12c0 1.55 1.14 2.82 2.62 3a3.53 3.53 0 0 0 1.38-.25 a1 1 0 0 0 .5-.86v-1.1a1 1 0 0 1 .76-.97c1.33-.36 2.24-1.58 2.24-2.83 0-1.63-1.34-2.95-3-2.95s-3 1.32-3 2.95c0 .02 0 .04.0.06a.5.5 0 0 1-.5.5H8.5a.5.5 0 0 1-.5-.5C8 10.27 9.34 9 11 9c1.66 0 3 1.34 3 3 0 .83-.34 1.58-.88 2.12a.5.5 0 0 0-.08.43v.68a.5.5 0 0 0 .42.49c.8.19 1.53.29 2.21.29 1.55 0 2.94-.47 4.14-1.27a1 1 0 0 0 .5-.87v-2.07a.5.5 0 0 0-.17-.4C18.52 2.46 16.79 2 15 2Z" />
     <path d="M9 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
     <path d="M15 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
   </svg>
@@ -60,15 +60,15 @@ export default function Home() {
           </RevealOnScroll>
            <RevealOnScroll>
             <div className="flex items-center gap-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://github.com/sawbay" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <Github className="h-6 w-6 text-foreground transition-colors hover:text-accent" />
                  <span className="sr-only">GitHub</span>
               </a>
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/company/sawbaysolutions" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="h-6 w-6 text-foreground transition-colors hover:text-accent" />
                  <span className="sr-only">LinkedIn</span>
               </a>
-              <a href="https://discord.com" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+              <a href="https://discord.gg/6rYwUM2kGT" target="_blank" rel="noopener noreferrer" aria-label="Discord">
                 <DiscordIcon className="h-6 w-6 text-foreground transition-colors hover:text-accent" />
                  <span className="sr-only">Discord</span>
               </a>
