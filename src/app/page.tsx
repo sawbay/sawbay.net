@@ -47,7 +47,7 @@ export default function Home() {
             </h1>
           </RevealOnScroll>
           <RevealOnScroll delay={100}>
-            <p className="mt-4 text-2xl text-muted-foreground">coming soon</p>
+            <p className="mt-4 text-lg text-muted-foreground">coming soon</p>
           </RevealOnScroll>
           <RevealOnScroll delay={200}>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
