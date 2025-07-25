@@ -46,6 +46,9 @@ export default function Home() {
               Code <span className="text-accent">3.0</span>
             </h1>
           </RevealOnScroll>
+          <RevealOnScroll delay={100}>
+            <p className="mt-4 text-2xl text-muted-foreground">coming soon</p>
+          </RevealOnScroll>
           <RevealOnScroll delay={200}>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
               Sawbay proposes to build its own Code 3.0 framework, applying it to our outsourcing products for a new era of self-adapting software.
