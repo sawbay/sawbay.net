@@ -3,6 +3,7 @@ import { Logo } from "@/components/logo";
 import { RevealOnScroll } from "@/components/reveal-on-scroll";
 import { Code, GitBranch, BrainCircuit, Github, Linkedin } from 'lucide-react';
 
+
 const DiscordIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -119,6 +120,28 @@ export default function Home() {
                 </Card>
               </RevealOnScroll>
             ))}
+          </div>
+        </section>
+
+        <section className="py-16 sm:py-20">
+          <h2 className="font-headline text-center text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+            Our Products
+          </h2>
+
+          <div className="mt-12 grid gap-8 md:grid-cols-1 lg:grid-cols-2">
+            <Card className="flex h-full flex-col border-border/50 bg-card/50 backdrop-blur-sm transition-all hover:border-accent/50 hover:shadow-lg hover:shadow-accent/10">
+              <CardHeader className="flex flex-row items-center gap-4">
+                <img src="/trakr.svg" alt="Trakr" className="h-8 w-8" />
+                <CardTitle className="font-headline text-2xl font-bold text-foreground">
+                  Trakr
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Track your money expense effortlessly with AI powered by Code 3.0
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </section>
         
