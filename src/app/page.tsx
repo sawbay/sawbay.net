@@ -129,19 +129,21 @@ export default function Home() {
           </h2>
 
           <div className="mt-12 grid gap-8 md:grid-cols-1 lg:grid-cols-2">
-            <Card className="flex h-full flex-col border-border/50 bg-card/50 backdrop-blur-sm transition-all hover:border-accent/50 hover:shadow-lg hover:shadow-accent/10">
-              <CardHeader className="flex flex-row items-center gap-4">
-                <img src="/trakr.svg" alt="Trakr" className="h-8 w-8" />
-                <CardTitle className="font-headline text-2xl font-bold text-foreground">
-                  Trakr
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Track your money expense effortlessly with AI powered by Code 3.0
-                </p>
-              </CardContent>
-            </Card>
+            <a href="https://trakr.sawbay.net" target="_blank" rel="noopener noreferrer" className="block">
+              <Card className="flex h-full flex-col border-border/50 bg-card/50 backdrop-blur-sm transition-all hover:border-accent/50 hover:shadow-lg hover:shadow-accent/10 cursor-pointer">
+                <CardHeader className="flex flex-row items-center gap-4">
+                  <img src="/trakr.svg" alt="Trakr" className="h-8 w-8" />
+                  <CardTitle className="font-headline text-2xl font-bold text-foreground">
+                    Trakr
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Track your money expense effortlessly with AI powered by Code 3.0
+                  </p>
+                </CardContent>
+              </Card>
+            </a>
           </div>
         </section>
         
